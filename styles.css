@@ -374,4 +374,229 @@ p {
     color: #ff0066;
 }
 
+.footernav {
+    display: none;
+}
 
+@media(max-width: 768px) {
+    .footernav {
+       display: flex;
+       margin-left: 450px;
+    }
+
+    .footerlist {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-size: 25px;
+        column-gap: 30px;
+        font-family: Montserrat;
+        font-style: inherit;
+        cursor: pointer;
+        background-color: #ffccff;
+        border-radius: 10px;
+        width: 570px;
+        justify-content: center;
+        margin-top: 20px;
+        margin-right: 85px;    
+        height: 35px;
+        text-align: center;
+        opacity: 0.7;
+        font: bold;
+        margin-bottom: -400px;
+    }
+
+    .logo {
+        margin-left: 300px;
+    }
+    
+   .footermenu {
+        transition: 0.2s;
+    }
+    
+    .footermenu:hover {
+        transform: scale(1.1);
+    }
+    
+   
+.footernav ul ul {
+    display: none;
+    position: absolute;
+    font-size: 18px;
+    background-color: #ffccff;
+    border-radius: 0 0 10px 10px; 
+    width: 100%;
+    padding: 5px;
+}
+
+.footernav ul li:hover ul {
+    display: block;
+    position: absolute;
+    text-align: center;
+}
+
+.lista {
+    display: none;
+}
+
+
+
+.comentarios-content {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    row-gap: 20px;
+    column-gap: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+}
+
+
+@media(max-width: 480px) {
+    .footernav {
+       display: flex;
+       margin-left: 450px;
+    }
+
+    .footerlist {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-size: 25px;
+        column-gap: 30px;
+        font-family: Montserrat;
+        font-style: inherit;
+        cursor: pointer;
+        background-color: #ffccff;
+        border-radius: 10px;
+        width: 570px;
+        justify-content: center;
+        margin-top: 20px;
+        margin-right: 85px;    
+        height: 35px;
+        text-align: center;
+        opacity: 0.7;
+        font: bold;
+        margin-bottom: -400px;
+    }
+
+    .logo {
+        margin-left: 250px;
+    }
+    
+   .footermenu {
+        transition: 0.2s;
+    }
+    
+    .footermenu:hover {
+        transform: scale(1.1);
+    }
+    
+   
+.footernav ul ul {
+    display: none;
+    position: absolute;
+    font-size: 18px;
+    background-color: #ffccff;
+    border-radius: 0 0 10px 10px; 
+    width: 100%;
+    padding: 5px;
+}
+
+.footernav ul li:hover ul {
+    display: block;
+    position: absolute;
+    text-align: center;
+}
+
+.lista {
+    display: none;
+}
+
+
+
+.comentarios-content {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    row-gap: 20px;
+    column-gap: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 200px;
+}
+
+.notbabi {
+    width: 230px;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    font-family: Montserrat;
+    backdrop-filter: blur(40px);
+    background-color: rgba(0, 0, 0, 0.548);
+    border-radius: 1.2rem;
+    color: #ffccff;
+    text-align: center;
+}
+
+
+.noticia1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.babi {
+    width: 230px;
+    height: 160px;
+    margin-bottom: 25px;
+    margin-top: -10px;
+}
+
+.notfefo {
+    width: 220px;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    font-family: Montserrat;
+    backdrop-filter: blur(60px);
+    background-color: rgba(0, 0, 0, 0.548);
+    border-radius: 1.2rem;
+    color: #ffccff;
+    text-align: center;
+}
+
+.noticia2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    margin-bottom: 20px;  
+}
+
+.fefo {
+    width: 220px;
+    height: 160px;
+    margin-bottom: 35px;
+    margin-top: -10px;
+    
+}
+
+.legenda {
+    margin-bottom: 15px;
+    font-size: 13px;
+}
+
+.ICONES {
+    margin-left: 100px;
+}
+}
