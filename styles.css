@@ -530,7 +530,7 @@ p {
 }
 
 .notbabi {
-    width: 230px;
+    width: 220px;
     height: 330px;
     display: flex;
     flex-direction: column;
@@ -555,9 +555,10 @@ p {
 }
 
 .babi {
-    width: 230px;
+    width: 200px;
     height: 160px;
-    margin-bottom: 25px;
+    margin-bottom: 35px;
+    margin-top: 15px;
    
 }
 
@@ -586,15 +587,23 @@ p {
 }
 
 .fefo {
-    width: 220px;
+    width: 200px;
     height: 160px;
     margin-bottom: 35px;
-    
-    
+    margin-top: 15px;
 }
 
 
 .desenvolvido {
     margin-left: 50px;
 }
+
+.logo {
+    align-items: center;
+}
+
+.ICONES {
+    align-items: center;
+}
+
 }
