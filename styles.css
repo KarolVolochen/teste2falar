@@ -407,7 +407,7 @@ p {
     }
 
     .logo {
-        margin-left: 300px;
+        align-items: center;
     }
     
    .footermenu {
@@ -449,6 +449,7 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
 }
 }
 
@@ -479,10 +480,11 @@ p {
         opacity: 0.7;
         font: bold;
         margin-bottom: -400px;
+        margin-left: 150px;
     }
 
     .logo {
-        margin-left: 250px;
+        align-items: center;
     }
     
    .footermenu {
@@ -524,7 +526,7 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-left: 200px;
+    margin-left: 300px;
 }
 
 .notbabi {
@@ -556,7 +558,7 @@ p {
     width: 230px;
     height: 160px;
     margin-bottom: 25px;
-    margin-top: -10px;
+   
 }
 
 .notfefo {
@@ -587,16 +589,12 @@ p {
     width: 220px;
     height: 160px;
     margin-bottom: 35px;
-    margin-top: -10px;
+    
     
 }
 
-.legenda {
-    margin-bottom: 15px;
-    font-size: 13px;
-}
 
-.ICONES {
-    margin-left: 100px;
+.desenvolvido {
+    margin-left: 50px;
 }
 }
