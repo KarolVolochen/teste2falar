@@ -415,17 +415,27 @@ p {
     .cabecalho {
         flex-direction: column;
         column-gap: 15px;
+        width: 420px;
+        align-items: center;
     }
 
     .comentarios-content {
         flex-direction: column;
-        margin-top: 50px;
+        margin-top: 70px;
         column-gap: 20px;
     }
 
 
     .ropade {
         width: 480px;
+    }
+
+    .lista {
+        font-size: 16px;
+    }
+
+    .nav ul ul {
+        font-size: 17px;
     }
 
 
