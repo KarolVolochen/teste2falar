@@ -423,8 +423,6 @@ p {
         flex-direction: column;
         margin-top: 70px;
         column-gap: 20px;
-        margin-bottom: 150px;
-
     }
 
     .logo {
@@ -447,5 +445,10 @@ p {
 
     .nav ul ul {
         font-size: 15px;
+    }
+
+    .ICONES {
+        margin-top: 500px;
+        margin-bottom: -300px;
     }
 }
