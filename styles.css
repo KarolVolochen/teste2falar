@@ -411,15 +411,7 @@ p {
 
 @media(max-width: 480px){
 
-
-
-
-    .ropade {
-        width: 480px;
+    footer {
+        position: absolute;
     }
-
-    .ICONES {
-        margin-top: 300px;
-    }
-
 }
