@@ -412,38 +412,11 @@ p {
 @media(max-width: 480px){
 
 
-    .cabecalho {
-        flex-direction: column;
-        column-gap: 15px;
-    }
-
-    .comentarios-content {
-        flex-direction: column;
-        margin-top: 50px;
-        column-gap: 20px;
-    }
-
-    .logo {
-        margin-left: 0;
-    }
-
-    .lista {
-        margin-left: 60px;
-        width: 350px;
-        column-gap: 15px;
-        font-size: 15px;
-        align-items: center;
-        margin-left: 80px;
-    }
 
 
     .ropade {
         width: 480px;
+        margin-top: 200px;
     }
 
-  
-
-    .nav ul ul {
-        font-size: 15px;
-    }
 }
