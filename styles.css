@@ -451,7 +451,8 @@ p {
 
     .ropade {
         width: 375px;
-       position: fixed;
+        margin-block-end: 10px;
+       
     }
 
 
