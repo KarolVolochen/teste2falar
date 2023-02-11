@@ -334,6 +334,10 @@ span{
     margin-top: -15px;
 }
 
+footer {
+    position: absolute;
+}
+
 .ropade {
     
     color: #ff0066;
