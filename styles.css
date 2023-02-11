@@ -450,6 +450,6 @@ p {
 
 @media(max-height: 810px){
     .ICONES {
-        margin-bottom: -400px;
+        margin-top: 400px;
     }
 }
