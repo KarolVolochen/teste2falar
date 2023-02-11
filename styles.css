@@ -449,12 +449,11 @@ p {
 
 @media(max-width: 375px){
 
-    .ropade {
-        width: 375px;
-    }
-
-    footer {
-        margin-top: 200px;
+    .comentarios-content {
+        flex-direction: column;
+        margin-top: 70px;
+        column-gap: 15px;
+        margin-bottom: 50px;
     }
 
 
