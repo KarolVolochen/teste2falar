@@ -421,8 +421,8 @@ p {
 
     .comentarios-content {
         flex-direction: column;
-        margin-top: 70px;
-        column-gap: 15px;
+        margin-top: 60px;
+        column-gap: 10px;
     }
 
     .logo {
@@ -450,7 +450,7 @@ p {
     }
 
     .ICONES {
-        margin-top: 1200px;
+        margin-top: 1300px;
         margin-bottom: -500px;
     }
 }
