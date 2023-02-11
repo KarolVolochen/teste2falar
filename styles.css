@@ -8,6 +8,16 @@
 
 
 
+body {
+    min-height: 100%;
+}
+
+footer {
+    margin-top: auto;
+}
+
+
+
 .cabecalho {
     display: flex;
     justify-content: space-between;
@@ -413,9 +423,3 @@ p {
     }
 }
 
-@media(max-width: 480px){
-
-    footer {
-        position: absolute;
-    }
-}
