@@ -6,6 +6,8 @@
     text-decoration: none;
 }
 
+
+
 .cabecalho {
     display: flex;
     justify-content: space-between;
@@ -332,10 +334,6 @@ span{
     margin-top: -15px;
 }
 
-footer {
-    position: absolute;
-}
-
 .ropade {
     
     color: #ff0066;
@@ -411,3 +409,24 @@ p {
     }
 }
 
+@media(max-width: 480px){
+
+
+    .cabecalho {
+        flex-direction: column;
+        column-gap: 15px;
+    }
+
+    .comentarios-content {
+        flex-direction: column;
+        margin-top: 50px;
+        column-gap: 20px;
+    }
+
+
+    .ropade {
+        width: 480px;
+    }
+
+
+}
