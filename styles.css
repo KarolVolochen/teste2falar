@@ -438,22 +438,12 @@ p {
 
 
     .ropade {
-        margin-top: 100px;
         width: 480px;
     }
+
+  
 
     .nav ul ul {
         font-size: 15px;
     }
-}
-
-@media(max-width: 375px){
-
-    .comentarios-content {
-        flex-direction: column;
-        margin-top: 70px;
-        column-gap: 15px;
-    }
-
-
 }
