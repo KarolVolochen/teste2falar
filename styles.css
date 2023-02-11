@@ -450,12 +450,12 @@ p {
 @media(max-width: 375px){
 
     .ropade {
-        margin-top: 100px;
+        margin-top: 300px;
         max-width: 375px;
     }
 
     .ICONES {
-        margin-bottom: -300px;
+        margin-top: 300px;
     }
 
 }
