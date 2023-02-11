@@ -447,3 +447,9 @@ p {
         font-size: 15px;
     }
 }
+
+@media(max-height: 810px){
+    .ICONES {
+        margin-bottom: -400px;
+    }
+}
