@@ -377,3 +377,58 @@ p {
 .footernav {
     display: none;
 }
+
+@media(max-width: 768px){
+
+    .cabecalho {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .comentarios-content {
+        flex-direction: column;
+        margin-top: 100px;
+        column-gap: 30px;
+    }
+
+    .logo {
+        margin-left: 0;
+    }
+
+    .lista {
+        margin-left: 60px;
+    }
+
+
+   
+
+    .ICONES {
+        margin-bottom: -400px;
+    }
+}
+
+@media(max-width: 480px){
+
+    .cabecalho {
+        flex-direction: column;
+    }
+
+    .comentarios-content {
+        flex-direction: column;
+        margin-top: 100px;
+        column-gap: 30px;
+    }
+
+    .logo {
+        margin-left: 0;
+    }
+
+    .lista {
+        margin-left: 60px;
+        width: 350px;
+        column-gap: 15px;
+        font-size: 15px;
+        align-items: center;
+        margin-left: 80px;
+    }
+}
