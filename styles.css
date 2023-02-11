@@ -451,10 +451,9 @@ p {
 
     .ropade {
         width: 375px;
+        margin-bottom: -400px;
     }
 
-    .ropade {
-        margin-top: 200px;
-    }
+
 
 }
