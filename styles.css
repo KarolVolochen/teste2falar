@@ -6,15 +6,6 @@
     text-decoration: none;
 }
 
-
-
-footer {
-    position: fixed;
-    bottom: 0;
-}
-
-
-
 .cabecalho {
     display: flex;
     justify-content: space-between;
@@ -340,6 +331,7 @@ span{
     margin-bottom: 25px;
     margin-top: -15px;
 }
+
 
 .ropade {
     
