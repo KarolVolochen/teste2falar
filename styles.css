@@ -6,7 +6,6 @@
     text-decoration: none;
 }
 
-
 .cabecalho {
     display: flex;
     justify-content: space-between;
@@ -333,6 +332,9 @@ span{
     margin-top: -15px;
 }
 
+footer {
+    position: absolute;
+}
 
 .ropade {
     
@@ -399,13 +401,13 @@ p {
         margin-left: 60px;
     }
 
-    .ropade {
-        max-width: 100%;
+
+    .ICONES {
+        margin-bottom: -200px;
     }
 
-    .todos-comentarios {
-        width: 70%;
-        height: 70%;
+    .ropade {
+        max-width: 100%;
     }
 }
 
