@@ -388,7 +388,7 @@ p {
     .comentarios-content {
         flex-direction: column;
         margin-top: 100px;
-        column-gap: 30px;
+        column-gap: 20px;
     }
 
     .logo {
@@ -400,23 +400,23 @@ p {
     }
 
 
-   
-
     .ICONES {
-        margin-bottom: -400px;
+        margin-bottom: -200px;
     }
 }
 
 @media(max-width: 480px){
 
+
     .cabecalho {
         flex-direction: column;
+        column-gap: 15px;
     }
 
     .comentarios-content {
         flex-direction: column;
-        margin-top: 100px;
-        column-gap: 30px;
+        margin-top: 50px;
+        column-gap: 20px;
     }
 
     .logo {
@@ -430,5 +430,14 @@ p {
         font-size: 15px;
         align-items: center;
         margin-left: 80px;
+    }
+
+
+    .ropade {
+        margin-top: 10px
+    }
+
+    .nav {
+        font-size: 15px;
     }
 }
