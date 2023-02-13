@@ -179,13 +179,12 @@ a {
     .calend {
         flex-direction: column;
         row-gap: 20px;
-        margin-top: 80px;
     }
 
     .calendario1 {
         height: 500px;
         width: 350px;
-        margin-bottom: 50px;
+       margin-top: 50px;
     }
     
     .calendario2 {
