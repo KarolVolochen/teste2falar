@@ -154,6 +154,11 @@ a {
         margin-left: 5px;
         margin-top: 60px
     }
+
+    .fundo {
+        height: 100%;
+        width: 100%;
+    }
 }
 
 @media(max-width: 480px){
@@ -202,7 +207,11 @@ a {
         width: 340px;
         margin-left: 5px;
         margin-top: -50px;
+    }
 
+    .fundo {
+        height: 100%;
+        width: 100%;
     }
 
 
