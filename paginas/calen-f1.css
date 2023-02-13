@@ -136,10 +136,12 @@ a {
     .calend {
         flex-direction: column;
         row-gap: 40px;
+        align-items: center;
+        justify-content: center;
     }
 
     .calendario1 {
-        height: 590px;
+        height: 530px;
         width: 650px;
     }
     
@@ -181,6 +183,8 @@ a {
         row-gap: 50px;
         margin-top: 70px;
         margin-bottom: 120px;
+        align-items: center;
+        justify-content: center;
     }
 
     .calendario1 {
