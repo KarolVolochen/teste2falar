@@ -168,6 +168,7 @@ a {
 
     .lista {
         margin-left: 60px;
+        margin-bottom: 120px;
     }
 
 
@@ -178,12 +179,13 @@ a {
 
     .gaetano {
         margin-top: 120px;
-        width: 650px;
-        height: 1200px;
+        width: 600px;
+        height: 1300px;
+        margin-left: 0;
     }
 
     .babi {
-        width: 620px;
+        width: 580px;
         height: 400px;
         margin-top: 20px;
     }
