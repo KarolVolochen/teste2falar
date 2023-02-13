@@ -169,7 +169,7 @@ a {
         font-size: 15px;
         align-items: center;
         margin-top: 0;
-        margin-bottom: 40px;
+        margin-bottom: 70px;
     }
 
     .nav ul ul {
@@ -178,14 +178,13 @@ a {
 
     .calend {
         flex-direction: column;
-        row-gap: 20px;
+        row-gap: 50px;
     }
 
     .calendario1 {
         height: 500px;
         width: 350px;
         margin-top: 50px;
-        margin-bottom: 150px;
     }
     
     .calendario2 {
