@@ -127,9 +127,9 @@ a {
     .calendario1 {
         height: 530px;
         width: 650px;
+        align-items: center;
+        margin-top: 70px;
     }
-    
-   
 }
 
 @media(max-width: 480px){
@@ -164,6 +164,7 @@ a {
         height: 500px;
         width: 350px;
         margin-top: 70px;
+        align-items: center;
     }
     
 }
