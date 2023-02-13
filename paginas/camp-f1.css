@@ -108,12 +108,19 @@ a {
     background: linear-gradient(90deg, rgba(0, 0, 0, 0.712) 0%, rgba(0, 0, 0, 0.548) 10%, rgba(0, 0, 0, 0.712) 100%);
 }
 
-.camp {
-    opacity: .6;
-    margin-top: 40px;
-    height:580px;
-    width: 580px;
+.tabcamp {
+    display: flex;
+    flex-direction: row;
+    row-gap: 50px;
+    justify-content: center;
     
+}
+
+.camp {
+    opacity: .9;
+    margin-top: 40px;
+    height: 590px;
+    width: 650px;
 }
 
 @media(max-width: 768px){
@@ -191,7 +198,6 @@ a {
 
     .camp {
         width: 350px;
-        margin-left: 10px;
     }
 
     .teste::after {
