@@ -417,8 +417,27 @@ p {
         flex-direction: column;
         column-gap: 15px;
         margin-top: 80px;
-        width: 80%;
-        height: 80%;
+        width: 75%;
+    }
+
+    .notbabi {
+        width: 70%;
+        height: 70%;
+    }
+
+    .babi {
+        width: 70%;
+        height: 70%;
+    }
+
+    .notfefo {
+        width: 70%;
+        height: 70%;
+    }
+
+    .fefo {
+        width: 70%;
+        height: 70%;
     }
 
     .logo {
@@ -433,10 +452,12 @@ p {
         column-gap: 15px;
         font-size: 15px;
         align-items: center;
+        margin-top: 0;
     }
 
     .ropade {
         width: 480px;
+        margin-top: 100px;
     }
 
     .nav ul ul {
