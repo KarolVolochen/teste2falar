@@ -417,6 +417,7 @@ p {
         flex-direction: column;
         column-gap: 10px;
         margin-bottom: 30px;
+        margin-top: 70px;
     }
 
     .logo {
@@ -444,7 +445,8 @@ p {
     }
 
     .ICONES {
-        margin-bottom: -200px
+        margin-bottom: -200px;
+        margin-top: 200px;
     }
 
 }
