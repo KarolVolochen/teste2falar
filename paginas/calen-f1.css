@@ -169,7 +169,7 @@ a {
         font-size: 15px;
         align-items: center;
         margin-top: 0;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
     }
 
     .nav ul ul {
@@ -185,7 +185,6 @@ a {
     .calendario1 {
         height: 500px;
         width: 350px;
-        margin-top: 70px;
         margin-bottom: 50px;
     }
     
@@ -193,7 +192,6 @@ a {
         height: 500px;
         width: 340px;
         margin-left: 5px;
-        margin-top: 150px;
     }
 
 
