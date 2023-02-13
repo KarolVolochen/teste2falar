@@ -116,7 +116,7 @@ a {
     margin-top: 40px;
     height:580px;
     width: 580px;
-    margin-left: 450px;
+    margin-left: 550px;
 }
 
 @media(max-width: 768px){
@@ -133,7 +133,7 @@ a {
 
     .lista {
         margin-left: 60px;
-        margin-bottom: 150px;
+        margin-bottom: 200px;
     }
 
 
@@ -180,7 +180,7 @@ a {
         font-size: 15px;
         align-items: center;
         margin-top: 0;
-        margin-bottom: 150px;
+        margin-bottom: 200px;
         
     }
 
