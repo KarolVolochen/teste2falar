@@ -115,26 +115,6 @@ a {
     z-index: -1;
 }
 
-.ropade {
-    color: #ff0066;
-    font-size: 17px;
-    height: 30px;
-    background-color:#03273f;
-    opacity: .7;
-    margin-top: 10px;
-    width: 100vw;
-    margin-left: -35px;
-    margin-bottom: -20px;
-    text-align: center;
-    font-family: Montserrat;
-    margin-bottom: -10px;
-}
-
-.desenvolvido {
-    text-align: center;
-    margin-top: 5px;
-    margin-left: 200px;
-}
 
 @media(max-width: 768px){
 
@@ -152,9 +132,6 @@ a {
         margin-left: 60px;
     }
 
-    .ropade {
-        max-width: 100%;
-    }
 
     .calend {
         flex-direction: column;
@@ -214,7 +191,7 @@ a {
         height: 500px;
         width: 340px;
         margin-left: 5px;
-        margin-top: -50px;
+        margin-top: -150px;
     }
 
 
