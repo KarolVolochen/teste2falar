@@ -395,6 +395,10 @@ p {
 
 @media(max-width: 480px){
 
+    body {
+        max-height: 100vh;
+    }
+
     .cabecalho {
         flex-direction: column;
         column-gap: 10px;
