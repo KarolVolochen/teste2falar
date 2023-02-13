@@ -115,6 +115,90 @@ a {
     z-index: -1;
 }
 
+@media(max-width: 768px){
+
+    .cabecalho {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .logo {
+        margin-left: 0;
+    }
+
+    .lista {
+        margin-left: 60px;
+    }
+
+    .ropade {
+        max-width: 100%;
+    }
+
+    .calend {
+        display: flex;
+        flex-direction: column;
+        row-gap: 40px;
+        justify-content: center;
+    }
+
+    .calendario1 {
+        height: 590px;
+        width: 650px;
+    }
+    
+    .calendario2 {
+        height: 530px;
+        width: 650px;
+    }
+}
+
+@media(max-width: 480px){
+
+    .cabecalho {
+        flex-direction: column;
+        column-gap: 10px;
+    }
+
+    .logo {
+        margin-left: 0;
+        width: 150px;
+        height: 80px;
+    }
+
+    .lista {
+        margin-left: 80px;
+        width: 350px;
+        column-gap: 15px;
+        font-size: 15px;
+        align-items: center;
+        margin-top: 0;
+    }
+
+    .ropade {
+        width: 500px;
+    }
+
+    .nav ul ul {
+        font-size: 15px;
+    }
+
+    .calendario1 {
+        height: 390px;
+        width: 500px;
+    }
+    
+    .calendario2 {
+        height: 390px;
+        width: 500px;
+    }
+
+
+
+
+}
+
+
 
 
 
