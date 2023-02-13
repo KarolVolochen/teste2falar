@@ -130,11 +130,6 @@ a {
     }
     
    
-
-    .fundo {
-        height: 200%;
-        width: 100%;
-    }
 }
 
 @media(max-width: 480px){
@@ -168,13 +163,7 @@ a {
     .calendario1 {
         height: 500px;
         width: 350px;
+        margin-top: 70px;
     }
     
-
-
-    .fundo {
-        height: 200%;
-        width: 100%;
-    }
-
 }
