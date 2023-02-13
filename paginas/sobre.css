@@ -100,8 +100,8 @@ a {
 
 
 .sobre {
-    width: 250px;
-    height: 320px;
+    width: 500px;
+    height: 600px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -115,11 +115,6 @@ a {
     text-align: center;
     margin-top: 100px;
     margin-left: 100px;
-}
-
-.falar {
-    width: 300px;
-    height: 500px;
 }
 
 
