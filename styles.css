@@ -431,7 +431,7 @@ p {
     .comentarios-content {
         flex-direction: column;
         column-gap: 15px;
-        margin-bottom: 100px;
+        margin-bottom: 400px;
     }
 
     .logo {
