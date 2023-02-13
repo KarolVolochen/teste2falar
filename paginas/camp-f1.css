@@ -116,7 +116,7 @@ a {
     margin-top: 40px;
     height:580px;
     width: 580px;
-    margin-left: 50%;
+    margin-left: 300px;
 }
 
 @media(max-width: 768px){
@@ -180,7 +180,7 @@ a {
         font-size: 15px;
         align-items: center;
         margin-top: 0;
-        margin-bottom: 150px;
+        margin-bottom: 100px;
         
     }
 
@@ -195,7 +195,7 @@ a {
 
     .camp {
         width: 350px;
-        align-items: center;
+        margin-left: 0;
     }
 
     .teste::after {
