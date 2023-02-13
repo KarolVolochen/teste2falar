@@ -113,7 +113,8 @@ a {
     margin-top: 40px;
     height:580px;
     width: 580px;
-    margin-right: 200px;
+    align-items: center;
+    justify-content: center;
 }
 
 @media(max-width: 768px){
@@ -130,7 +131,7 @@ a {
 
     .lista {
         margin-left: 60px;
-        margin-bottom: 250px;
+        margin-bottom: 270px;
     }
 
 
@@ -141,7 +142,7 @@ a {
 
     .camp {
         width: 750px;
-        margin-top: 150px;
+        margin-top: 200px;
 
     }
 
