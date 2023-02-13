@@ -156,10 +156,8 @@ a {
     }
 
     .calend {
-        display: flex;
         flex-direction: column;
         row-gap: 40px;
-        justify-content: center;
     }
 
     .calendario1 {
@@ -204,10 +202,8 @@ a {
     }
 
     .calend {
-        display: flex;
         flex-direction: column;
         row-gap: 20px;
-        justify-content: center;
     }
 
     .calendario1 {
