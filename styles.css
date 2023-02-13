@@ -416,6 +416,8 @@ p {
         flex-direction: column;
         column-gap: 15px;
         margin-top: 80px;
+        width: 80%;
+        height: 80%;
     }
 
     .logo {
@@ -439,5 +441,8 @@ p {
     .nav ul ul {
         font-size: 15px;
     }
+
+    
+
 
 }
