@@ -109,12 +109,10 @@ a {
     font-size: 20px;
     font-family: Montserrat;
     backdrop-filter: blur(60px);
-    background-color: rgba(255, 180, 224, 0.582);
+    background-color: rgba(253, 124, 199, 0.56);
     border-radius: 1.2rem;
     color: #03273f;
     text-align: center;
-    margin-top: 100px;
-    margin-left: 100px;
 }
 
 .karol {
