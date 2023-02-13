@@ -432,7 +432,6 @@ p {
         font-size: 15px;
         align-items: center;
         margin-top: 0;
-        margin-bottom: 70px;
     }
 
     .ropade {
@@ -441,10 +440,6 @@ p {
 
     .nav ul ul {
         font-size: 15px;
-    }
-
-    .ICONES {
-        margin-top: 50px;
     }
 
 }
