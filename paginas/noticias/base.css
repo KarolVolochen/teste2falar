@@ -168,7 +168,7 @@ a {
 
     .lista {
         margin-left: 60px;
-        margin-bottom: 120px;
+        margin-bottom: 250px;
     }
 
 
@@ -181,7 +181,7 @@ a {
         margin-top: 120px;
         width: 620px;
         height: 1200px;
-        margin-left: 100px;
+        align-items: center;
     }
 
     .babi {
