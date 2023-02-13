@@ -423,7 +423,7 @@ p {
     .logo {
         margin-left: 0;
         width: 150px;
-        height: 70px;
+        height: 80px;
     }
 
     .lista {
@@ -443,8 +443,8 @@ p {
         font-size: 15px;
     }
 
-
-    
-
+    .ICONES {
+        margin-top: 400px;
+    }
 
 }
