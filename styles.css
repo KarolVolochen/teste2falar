@@ -395,10 +395,7 @@ p {
 
 @media(max-width: 480px){
 
-    body {
-        max-height: 100vh;
-    }
-
+    
     .cabecalho {
         flex-direction: column;
         column-gap: 10px;
@@ -408,7 +405,7 @@ p {
         flex-direction: column;
         column-gap: 10px;
         margin-top: 70px;
-        margin-bottom: 120px;
+        margin-bottom: 170px;
     }
 
     .logo {
@@ -432,6 +429,8 @@ p {
 
     .nav ul ul {
         font-size: 15px;
+    }
+
     }
 
 
