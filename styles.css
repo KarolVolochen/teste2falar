@@ -441,13 +441,30 @@ p {
     }
 
     .notbabi {
-        width: 80%;
-        height: 80%;
+        width: 200px;
+        height: 270px;
+
+    }
+    
+    .babi {
+        width: 200px;
+        height: 100px;
+        margin-bottom: 25px;
+        margin-top: -15px;
     }
 
-    .babi {
-        width: 80%;
-        height: 80%;
+    .notfefo {
+        width: 200px;
+        height: 270px;
     }
+    
+    
+    .fefo {
+        width: 200px;
+        height: 100px;
+        margin-bottom: 25px;
+        margin-top: -15px;
+    }
+
 
 }
