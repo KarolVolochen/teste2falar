@@ -411,12 +411,13 @@ p {
     .cabecalho {
         flex-direction: column;
         column-gap: 10px;
+        margin-bottom: 40px;
     }
 
     .comentarios-content {
         flex-direction: column;
         column-gap: 10px;
-        margin-bottom: 150px;
+        margin-bottom: 30px;
         margin-top: 70px;
     }
 
