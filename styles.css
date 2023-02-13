@@ -417,7 +417,7 @@ p {
         flex-direction: column;
         column-gap: 10px;
         margin-bottom: 30px;
-        margin-top: 70px;
+        margin-top: 150px;
     }
 
     .logo {
@@ -437,7 +437,7 @@ p {
     }
 
     .ropade {
-        width: 480px;
+        width: 500px;
     }
 
     .nav ul ul {
