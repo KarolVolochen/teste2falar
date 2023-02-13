@@ -432,6 +432,7 @@ p {
         font-size: 15px;
         align-items: center;
         margin-top: 0;
+        margin-bottom: 70px;
     }
 
     .ropade {
@@ -443,8 +444,7 @@ p {
     }
 
     .ICONES {
-        margin-top: 500px;
-        margin-bottom: 0;
+        margin-bottom: -200px
     }
 
 }
