@@ -418,6 +418,28 @@ p {
         margin-top: 80px;
     }
 
+    .notbabi {
+        width: 250px;
+        height: 320px;
+    }
+    
+    
+    .babi {
+        width: 250px;
+        height: 150px;
+    }
+    
+    .notfefo {
+        width: 250px;
+        height: 320px;
+    }
+    
+    
+    .fefo {
+        width: 250px;
+        height: 150px;
+    }
+
     .logo {
         margin-left: 0;
         width: 150px;
