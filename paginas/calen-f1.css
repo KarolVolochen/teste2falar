@@ -115,6 +115,26 @@ a {
     z-index: -1;
 }
 
+.ropade {
+    color: #ff0066;
+    font-size: 17px;
+    height: 30px;
+    background-color:#03273f;
+    opacity: .7;
+    margin-top: 10px;
+    width: 1495px;
+    margin-left: -35px;
+    margin-bottom: -20px;
+    text-align: center;
+    font-family: Montserrat;;
+}
+
+.desenvolvido {
+    margin-left: -120px;
+    text-align: center;
+    margin-top: 5px;
+}
+
 @media(max-width: 768px){
 
     .cabecalho {
@@ -184,12 +204,14 @@ a {
     }
 
     .calendario1 {
-        height: 390px;
+        margin-top: 20px;
+        height: 360px;
         width: 500px;
     }
     
     .calendario2 {
-        height: 390px;
+        margin-top: 0;
+        height: 360px;
         width: 500px;
     }
 
