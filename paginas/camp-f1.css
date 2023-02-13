@@ -115,8 +115,8 @@ a {
     opacity: .6;
     margin-top: 40px;
     height:580px;
-    width: 900px;
-    margin-left: 300px
+    width: 580px;
+    align-items: center;
 }
 
 @media(max-width: 768px){
@@ -144,6 +144,7 @@ a {
     .camp {
         width: 750px;
         margin-left: 0;
+        margin-top: 200px;
     }
 
     .teste::after {
@@ -193,7 +194,7 @@ a {
 
     .camp {
         width: 350px;
-        margin-top: 100px;
+        margin-top: 250px;
         align-items: center;
     }
 
