@@ -417,7 +417,7 @@ p {
         flex-direction: column;
         column-gap: 20px;
         margin-top: 80px;
-        width: 85%;
+    
     }
 
     .notbabi {
@@ -457,7 +457,6 @@ p {
 
     .ropade {
         width: 480px;
-        margin-top: 50px;
     }
 
     .redes {
