@@ -111,7 +111,7 @@ a {
 .tabcamp {
     display: flex;
     flex-direction: row;
-    row-gap: 50px;
+    align-items: center;
     justify-content: center;
     
 }
@@ -148,6 +148,7 @@ a {
 
     .camp {
         width: 750px;
+        margin-top: 200px;
 
     }
 
@@ -198,6 +199,7 @@ a {
 
     .camp {
         width: 350px;
+        margin-top: 50px;
     }
 
     .teste::after {
