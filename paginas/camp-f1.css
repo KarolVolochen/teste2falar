@@ -137,7 +137,6 @@ a {
 
     .lista {
         margin-left: 60px;
-        margin-bottom: 300px;
     }
 
 
@@ -148,7 +147,7 @@ a {
 
     .camp {
         width: 750px;
-        margin-top: 300px;
+
 
     }
 
@@ -199,7 +198,6 @@ a {
 
     .camp {
         width: 350px;
-        margin-top: 50px;
     }
 
     .teste::after {
