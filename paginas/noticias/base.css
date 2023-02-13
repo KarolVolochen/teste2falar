@@ -178,10 +178,10 @@ a {
     }
 
     .gaetano {
-        margin-top: 120px;
+        margin-top: 250px;
         width: 620px;
         height: 1200px;
-        align-items: center;
+        margin-left: 50px;
     }
 
     .babi {
