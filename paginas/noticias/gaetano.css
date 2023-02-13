@@ -237,12 +237,14 @@ a {
 
     .babi {
         width: 320px;
-        height: 320px;
+        height: 300px;
         margin-top: 20px;
     }
 
     .texto {
         font-size: 16px;
+        margin-left: 5px;
+        margin-right: 5px;
     }
 
 }
