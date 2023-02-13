@@ -415,10 +415,9 @@ p {
 
     .comentarios-content {
         flex-direction: column;
-        column-gap: 20px;
+        column-gap: 15px;
         margin-top: 80px;
     }
-
 
     .logo {
         margin-left: 0;
@@ -437,10 +436,6 @@ p {
 
     .ropade {
         width: 480px;
-    }
-
-    .redes {
-        margin-top: 50px;
     }
 
     .nav ul ul {
