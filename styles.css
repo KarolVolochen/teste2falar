@@ -418,6 +418,7 @@ p {
         flex-direction: column;
         column-gap: 10px;
         margin-bottom: 30px;
+        margin-top: -20px;
     }
 
     .logo {
