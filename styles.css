@@ -416,7 +416,7 @@ p {
     .comentarios-content {
         flex-direction: column;
         column-gap: 10px;
-        margin-bottom: 300px;
+        margin-bottom: 150px;
         margin-top: 70px;
     }
 
@@ -444,7 +444,7 @@ p {
     }
 
     .ICONES {
-        margin-top: 400px;
+        margin-top: 200px;
         margin-bottom: 0;
     }
 
