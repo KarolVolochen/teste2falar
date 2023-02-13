@@ -203,6 +203,13 @@ a {
         font-size: 15px;
     }
 
+    .calend {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        justify-content: center;
+    }
+
     .calendario1 {
         margin-top: 20px;
         height: 360px;
@@ -210,7 +217,6 @@ a {
     }
     
     .calendario2 {
-        margin-top: 0;
         height: 360px;
         width: 500px;
     }
