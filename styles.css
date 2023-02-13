@@ -440,31 +440,4 @@ p {
         font-size: 15px;
     }
 
-    .notbabi {
-        width: 200px;
-        height: 270px;
-
-    }
-    
-    .babi {
-        width: 200px;
-        height: 100px;
-        margin-bottom: 25px;
-        margin-top: -15px;
-    }
-
-    .notfefo {
-        width: 200px;
-        height: 270px;
-    }
-    
-    
-    .fefo {
-        width: 200px;
-        height: 100px;
-        margin-bottom: 25px;
-        margin-top: -15px;
-    }
-
-
 }
