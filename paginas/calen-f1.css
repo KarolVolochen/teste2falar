@@ -214,11 +214,9 @@ a {
         height: 500px;
         width: 340px;
         margin-left: 5px;
+        margin-top: -50px;
     }
 
-    .ropade {
-        width: 700px;
-    }
 
 }
 
