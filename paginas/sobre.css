@@ -106,9 +106,9 @@ a {
     background-color: #ffccff;
     opacity: .7;
     width: 900px;
-    height: 995px;
+    height: 950px;
     margin-top: 50px;
-    margin-left: 400px;
+    margin-right: -300px;
     border-radius: 5px;
 }
 
