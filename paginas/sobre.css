@@ -106,7 +106,7 @@ a {
     background-color: #ffccff;
     opacity: .7;
     width: 900px;
-    height: 950px;
+    height: 980px;
     margin-top: 50px;
     margin-left: 300px;
     border-radius: 5px;
@@ -121,7 +121,7 @@ a {
 
 .texto {
     font-family: Montserrat ;
-    padding: 20px;
+    padding: 25px;
     text-align: justify;
     font-size: 18px;
 }
