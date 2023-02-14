@@ -102,10 +102,11 @@ a {
     background-color: #ffffff;
     opacity: .7;
     width: 900px;
-    height: 1600px;
+    height: 1900px;
     margin-top: 50px;
     margin-left: 280px;
     border-radius: 5px;
+    font-family: ;
 }
 
 .babi {
@@ -114,13 +115,26 @@ a {
     padding: 20px;
 }
 
-.texto {
+.pergunta {
     font-family: Montserrat;
     padding: 20px;
     text-align: justify;
     font-size: 18px;
-    align-items: center;
-    
+    align-items: center;  
+    color: #ff0066; 
+}
+
+.resposta {
+    font-family: Montserrat;
+    padding: 20px;
+    text-align: justify;
+    font-size: 18px;
+    align-items: center;   
+}
+
+.titulo {
+    padding: 20px;
+    font-size: 25px;
 }
 
 .legenda {
