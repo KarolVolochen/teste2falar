@@ -100,29 +100,29 @@ a {
 
 
 .gaetano {
-    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
     align-items: center;
     background-color: #ffccff;
     opacity: .7;
     width: 900px;
     height: 845px;
     margin-top: 50px;
-    margin-left: 100px;
+    margin-left: 300px;
     border-radius: 5px;
 }
 
 .babi {
     width: 400px;
-    height: 500px;
+    height: 400px;
     padding: 20px;
+    border-radius: 5px;
 }
 
 .texto {
     font-family: Montserrat ;
-    text-align: center;
     padding: 20px;
     text-align: justify;
-    font-size: 18px;
+    font-size: 17px;
 }
 
 
