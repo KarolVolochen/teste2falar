@@ -99,32 +99,57 @@ a {
 }
 
 
-.sobre {
-    width: 1200px;
-    height: 600px;
-    grid-template-columns: auto;
-    justify-content: center;
+.gaetano {
+    display: flex;
+    flex-direction: row;
     align-items: center;
-    font-size: 18px;
-    font-family: Montserrat;
-    backdrop-filter: blur(60px);
-    background-color: rgba(255, 180, 224, 0.582);
-    border-radius: 1.2rem;
-    color: #03273f;
-    text-align: center;
-    margin-top: 100px;
-    margin-left: 50px;
+    background-color: #ffccff;
+    opacity: .7;
+    width: 1200px;
+    height: 800px;
+    margin-top: 50px;
+    margin-left: 280px;
+    border-radius: 5px;
 }
 
-.falar {
-    width: 400px;
-    height: 500px;
-    padding: 15px;
+.babi {
+    width: 500px;
+    height: 700px;
+    margin-top: 20px;
 }
 
 .texto {
-    padding: 15px;
+    font-family: Montserrat ;
+    text-align: center;
+    margin-top: 20px;
+    text-align: justify;
+    font-size: 18px;
 }
 
+.textbabi {
+    font-style: oblique;
+    font-family: Montserrat;
+    margin-top: 20px;
+}
 
+.legenda {
+    color: #03273f;
+    font-size: 15px;
+    font-family: Montserrat;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
 
+.ropade {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.desenvolvido {
+    font-family: Montserrat;
+    font-size: 17px;
+    color: #ffccff;;
+    margin-top: 10px;
+    
+}
