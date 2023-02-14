@@ -106,15 +106,15 @@ a {
     background-color: #ffccff;
     opacity: .7;
     width: 900px;
-    height: 845px;
+    height: 995px;
     margin-top: 50px;
-    margin-left: 100px;
+    margin-left: 300px;
     border-radius: 5px;
 }
 
 .babi {
     width: 400px;
-    height: 400px;
+    height: 350px;
     padding: 20px;
 }
 
