@@ -109,23 +109,23 @@ a {
     font-size: 18px;
     font-family: Montserrat;
     backdrop-filter: blur(60px);
-    background-color: rgba(253, 124, 199, 0.56);
+    background-color: rgba(255, 180, 224, 0.582);
     border-radius: 1.2rem;
     color: #03273f;
     text-align: justify;
+    align-items: center;
 }
 
 .karol {
     display: grid;
-    grid-template-rows: 70% 30%;
-    column-gap: 20px;
+    grid-template-rows: 50% 50%;
+    column-gap: 40px;
     justify-content: center;
 }
 
 .falar {
-    width: 500px;
-    height: 600px;
-    padding: 20px 20px 20px 0;
+    width: 400px;
+    height: 500px;
 }
 
 
