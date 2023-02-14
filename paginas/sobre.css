@@ -120,7 +120,7 @@ a {
 .texto {
     font-family: Montserrat ;
     text-align: center;
-    margin-top: 20px;
+    padding: 20px;
     text-align: justify;
     font-size: 18px;
 }
