@@ -108,14 +108,14 @@ a {
     width: 900px;
     height: 845px;
     margin-top: 50px;
-    margin-left: 280px;
+    margin-left: 100px;
     border-radius: 5px;
 }
 
 .babi {
     width: 400px;
     height: 500px;
-    margin-top: 20px;
+    padding: 20px;
 }
 
 .texto {
