@@ -102,7 +102,7 @@ a {
     background-color: #ffffff;
     opacity: .7;
     width: 900px;
-    height: 1900px;
+    height: 2500px;
     margin-top: 50px;
     margin-left: 280px;
     border-radius: 5px;
@@ -135,6 +135,8 @@ a {
 .titulo {
     padding: 20px;
     font-size: 25px;
+    font-family: Montserrat;
+    color: #03273f;
 }
 
 .legenda {
