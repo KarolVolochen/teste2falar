@@ -117,7 +117,8 @@ a {
 
 .pergunta {
     font-family: Montserrat;
-    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
     text-align: justify;
     font-size: 18px;
     align-items: center;  
@@ -126,17 +127,18 @@ a {
 
 .resposta {
     font-family: Montserrat;
-    padding: 20px;
+    padding: 10px 20px 10px 20px;
     text-align: justify;
     font-size: 18px;
     align-items: center;   
 }
 
 .titulo {
-    padding: 20px;
-    font-size: 25px;
+    padding: 10px;
+    font-size: 20px;
     font-family: Montserrat;
     color: #03273f;
+    text-align: center;
 }
 
 .legenda {
