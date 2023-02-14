@@ -101,7 +101,7 @@ a {
 
 .gaetano {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     background-color: #ffccff;
     opacity: .7;
