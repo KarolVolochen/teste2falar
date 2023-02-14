@@ -103,7 +103,7 @@ a {
     width: 1200px;
     height: 600px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     font-size: 18px;
@@ -113,11 +113,9 @@ a {
     border-radius: 1.2rem;
     color: #03273f;
     text-align: justify;
-    align-items: center;
 }
 
 .karol {
-    display: grid;
     grid-template-columns: 50% 50%;
     column-gap: 40px;
     justify-content: center;
