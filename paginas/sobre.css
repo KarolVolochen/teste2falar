@@ -100,7 +100,7 @@ a {
 
 
 .sobre {
-    width: 90%;
+    width: 1200px;
     height: 600px;
     display: flex;
     flex-direction: column;
@@ -112,7 +112,7 @@ a {
     background-color: rgba(255, 180, 224, 0.582);
     border-radius: 1.2rem;
     color: #03273f;
-    text-align: justify;
+    text-align: center;
     margin-top: 100px;
     margin-left: 50px;
 }
