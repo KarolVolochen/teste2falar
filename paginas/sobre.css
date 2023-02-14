@@ -101,20 +101,20 @@ a {
 
 .gaetano {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     background-color: #ffccff;
     opacity: .7;
-    width: 1200px;
-    height: 800px;
+    width: 900px;
+    height: 845px;
     margin-top: 50px;
     margin-left: 280px;
     border-radius: 5px;
 }
 
 .babi {
-    width: 500px;
-    height: 700px;
+    width: 400px;
+    height: 500px;
     margin-top: 20px;
 }
 
@@ -126,19 +126,7 @@ a {
     font-size: 18px;
 }
 
-.textbabi {
-    font-style: oblique;
-    font-family: Montserrat;
-    margin-top: 20px;
-}
 
-.legenda {
-    color: #03273f;
-    font-size: 15px;
-    font-family: Montserrat;
-    margin-top: 20px;
-    margin-bottom: 0;
-}
 
 .ropade {
     text-align: center;
