@@ -100,9 +100,10 @@ a {
 
 
 .sobre {
-    width: 85%;
+    width: 90%;
     height: 600px;
-    grid-template-columns: 50% 50%;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     font-size: 18px;
