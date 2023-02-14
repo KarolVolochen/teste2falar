@@ -100,7 +100,8 @@ a {
 
 
 .gaetano {
-    grid-template-rows: 50% 50%;
+    display: flex;
+    flex-direction: row;
     align-items: center;
     background-color: #ffccff;
     opacity: .7;
