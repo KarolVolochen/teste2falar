@@ -102,8 +102,7 @@ a {
 .sobre {
     width: 1200px;
     height: 600px;
-    display: flex;
-    flex-direction: column;
+    grid-template-columns: auto;
     justify-content: center;
     align-items: center;
     font-size: 18px;
