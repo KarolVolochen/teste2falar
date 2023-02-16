@@ -186,6 +186,12 @@ a {
     height: 300px;
 }
 
+.alpinef {
+    width: 600px;
+    height: 300px;
+
+}
+
 @media(max-width: 768px){
 
     .cabecalho {
@@ -288,6 +294,11 @@ a {
     }
     
     .mercedesf {
+        width: 300px;
+        height: 150px;
+    }
+
+    .alpinef {
         width: 300px;
         height: 150px;
     }
