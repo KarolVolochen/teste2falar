@@ -261,8 +261,6 @@ span{
     grid-template-columns: repeat(2, 1fr);
     row-gap: 50px;
     column-gap: 100px;
-    display: flex;
-    flex-direction: row;
     justify-content: center;
 }
 
