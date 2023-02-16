@@ -258,7 +258,7 @@ span{
 
 .comentarios-content {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     row-gap: 50px;
     column-gap: 150px;
     display: flex;
@@ -356,6 +356,43 @@ span{
     height: 150px;
     margin-bottom: 20px;
     margin-top: -15px;
+}
+
+.carros {
+    width: 250px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    font-family: Montserrat;
+    backdrop-filter: blur(40px);
+    background-color: rgba(255, 255, 255, 0.548);
+    border-radius: 1.2rem;
+    color: #03273f;
+    text-align: center;
+}
+
+
+.noticia4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.carro {
+    width: 250px;
+    height: 150px;
+    margin-bottom: 20px;
+    margin-top: -15px;
+}
+
+.legendacarro {
+    font-size: 13px;
+    margin-bottom: 20px;
+    margin-top: -20px
 }
 
 .ropade {
