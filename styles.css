@@ -258,9 +258,9 @@ span{
 
 .comentarios-content {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     row-gap: 50px;
-    column-gap: 100px;
+    column-gap: 50px;
     justify-content: center;
 }
 
