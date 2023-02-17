@@ -447,7 +447,8 @@ p {
     }
 
     .comentarios-content {
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: 1fr;
         margin-top: 100px;
         column-gap: 20px;
     }
@@ -480,7 +481,8 @@ p {
     }
 
     .comentarios-content {
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: 1fr;
         column-gap: 10px;
         margin-top: 70px;
         margin-bottom: 170px;
