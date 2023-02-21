@@ -102,7 +102,7 @@ a {
 }
 
 .fundo {
-    height: 120%;
+    height: 100vh;
     width: 100vw;
     position: fixed;
     object-fit: cover;
@@ -114,7 +114,7 @@ a {
     bottom: 20px;
     left: 51%;
     transform: translateX(-50%);
-    margin-top: auto;
+    margin-top: 50px;
 
 }
 
