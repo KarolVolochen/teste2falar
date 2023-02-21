@@ -102,7 +102,7 @@ a {
 }
 
 .fundo {
-    height: 100vh;
+    height: 120%;
     width: 100vw;
     position: fixed;
     object-fit: cover;
