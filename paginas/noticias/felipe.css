@@ -84,10 +84,6 @@ a {
     margin-left: 20px;
 }
 
-.submenu {
-    margin-right: 20px;
-    margin-left: 20px;
-}
 
 .fundo {
     height: 100%;
@@ -105,7 +101,7 @@ a {
     align-items: center;
     background-color: #ffffff;
     opacity: .7;
-    width: 900px;
+    width: 1100px;
     height: 845px;
     margin-top: 50px;
     margin-left: 280px;
@@ -121,9 +117,9 @@ a {
 .texto {
     font-family: Montserrat ;
     text-align: center;
-    margin-top: 20px;
     text-align: justify;
     font-size: 18px;
+    padding: 20px;
 }
 
 .textbabi {
