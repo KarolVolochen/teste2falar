@@ -69,8 +69,6 @@ li:hover {
     display: block;
     position: absolute;
     text-align: center;
-
-
 }
 
 a {
@@ -94,7 +92,6 @@ a {
     background-color: #03273f;
 }
 
-
 .gaetano {
     display: flex;
     flex-direction: column;
@@ -115,18 +112,13 @@ a {
 }
 
 .texto {
-    font-family: Montserrat ;
+    font-family: Montserrat;
     text-align: center;
     text-align: justify;
     font-size: 18px;
     padding: 20px;
 }
 
-.textbabi {
-    font-style: oblique;
-    font-family: Montserrat;
-    margin-top: 20px;
-}
 
 .legenda {
     color: #03273f;
@@ -227,7 +219,7 @@ a {
     .gaetano {
         margin-top: 150px;
         width: 340px;
-        height: 1000px;
+        height: 1200px;
         margin-left: 15px;
     }
 
