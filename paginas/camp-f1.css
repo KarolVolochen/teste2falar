@@ -123,6 +123,13 @@ a {
     width: 650px;
 }
 
+.campequipes {
+    opacity: .9;
+    margin-top: 40px;
+    height: 590px;
+    width: 500px;
+}
+
 @media(max-width: 768px){
 
     .cabecalho {
