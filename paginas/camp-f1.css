@@ -155,8 +155,6 @@ a {
 
     .tabcamp {
         grid-template-columns: 1fr;
-        
-        
     }
 
     .camp {
@@ -168,13 +166,11 @@ a {
     .campequipes {
         width: 750px;
         margin-top: 20px;
-        
     }
 
     .teste::after {
         width: 100%;
-        height: 200%;
-        
+        height: 200vh;
 }
 }
 
@@ -226,7 +222,7 @@ a {
 
     .teste::after {
         width: 100%;
-        height: 200%;
+        height: 200vh;
         position: absolute;
 }
 }
