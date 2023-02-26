@@ -13,13 +13,12 @@
     display: flex;
     justify-content: space-between;
     max-width: 100vw;
-    height: 80px;
-    
+    height: 80px; 
 
 }
 
 .logo {
-    width: 180px;
+    width: 80px;
     height: 80px;
     align-items: center;
     margin-left: 100px;
