@@ -154,7 +154,7 @@ a {
     }
 
     .tabcamp {
-        flex-direction: column;
+        grid-template-columns: 1fr;
         align-items: center;
         justify-content: center;
         
