@@ -112,21 +112,20 @@ a {
     align-items: center;
     justify-content: center;
     column-gap: 50px;
-    
 }
 
 .camp {
     opacity: .9;
     margin-top: 40px;
-    height: 590px;
+    height: 580px;
     width: 650px;
-    margin-left: 100px;
+    margin-left: 150px;
 }
 
 .campequipes {
     opacity: .9;
     margin-top: 40px;
-    height: 590px;
+    height: 580px;
     width: 500px;
 }
 
