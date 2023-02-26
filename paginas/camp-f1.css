@@ -121,7 +121,6 @@ a {
     margin-top: 40px;
     height: 590px;
     width: 650px;
-    margin-left: 100px;
 }
 
 .campequipes {
@@ -164,7 +163,6 @@ a {
     .camp {
         width: 750px;
         margin-top: 300px;
-        margin-bottom: -200px;
     }
 
     .campequipes {
@@ -216,13 +214,12 @@ a {
     .camp {
         width: 350px;
         margin-top: 100px;
-        margin-bottom: -200px;
-        margin-left: 50px;
+
+
     }
 
     .campequipes {
         width: 350px;
-        margin-top: 200px;
         
     }
 
