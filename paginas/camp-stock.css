@@ -61,7 +61,6 @@ li:hover {
     background-color: #ffccff;
     border-radius: 0 0 10px 10px; 
     width: 100%;
-    
     padding: 5px;
 }
 
@@ -84,13 +83,6 @@ a {
     margin-left: 20px;
 }
 
-.teste {
-    position: absolute;
-    z-index: -1;
-    width: 100vw;
-    height: 100vh;
-    overflow: hidden;
-}
 
 .fundo {
     height: 100%;
@@ -100,23 +92,17 @@ a {
     z-index: -1;
 }
 
-.teste::after {
-    content: "";
-    background-color: #d5011d;
-    width: 100vw;
-    height: 100vh;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: linear-gradient(90deg, rgba(0, 0, 0, 0.712) 0%, rgba(0, 0, 0, 0.548) 10%, rgba(0, 0, 0, 0.712) 100%);
+.definicao {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
 }
+
 
 .rodape {
     background-color: #ffccff;
     width: 300px;
     height: 110px;
-    margin-top: 50px;
-    margin-left: 600px;
     text-align: center;
     border-radius: 10px;
 }
@@ -124,7 +110,7 @@ a {
 .desenvolvido {
     font-family: Montserrat;
     font-size: 40px;
-    align-items: center;
+  
 }
 
 @media(max-width: 768px){
@@ -140,24 +126,15 @@ a {
     }
 
     .lista {
-        margin-left: 60px;
+        align-items: center;
+        margin-right: 0;
     }
 
-
-    .fundo {
-        width: 100%;
-        height: 100%;
-    }
-
-    .rodape {
-        margin-left: 50px;
-    
-    }
     
     .desenvolvido {
         font-size: 30px;
-    }
-
+        text-align: center;
+}
 }
 
 @media(max-width: 480px){
@@ -174,24 +151,17 @@ a {
     }
 
     .lista {
-        margin-left: 80px;
         width: 350px;
         column-gap: 15px;
         font-size: 15px;
         align-items: center;
-        margin-top: 0;
-        margin-bottom: 350px;
-        
+        margin-top: 10px;
     }
 
     .nav ul ul {
         font-size: 15px;
     }
 
-    .fundo {
-        width: 100%;
-        height: 100%;
-    }
-
+    
 }
 

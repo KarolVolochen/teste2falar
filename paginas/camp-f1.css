@@ -80,13 +80,7 @@ a {
     margin-left: 20px;
 }
 
-.teste {
-    position: absolute;
-    z-index: -1;
-    width: 100vw;
-    height: 100vh;
-    overflow: hidden;
-}
+
 
 .fundo {
     height: 100%;
@@ -96,37 +90,29 @@ a {
     z-index: -1;
 }
 
-.teste::after {
-    content: "";
-    background-color: #d5011d;
-    width: 100vw;
-    height: 100vh;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: linear-gradient(90deg, rgba(0, 0, 0, 0.712) 0%, rgba(0, 0, 0, 0.548) 10%, rgba(0, 0, 0, 0.712) 100%);
+.tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .tabcamp {
-    grid-template-columns: 50% 50%;
-    align-items: center;
-    justify-content: center;
-    column-gap: 50px;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .camp {
-    opacity: .7;
+    opacity: .9;
     margin-top: 40px;
     height: 580px;
-    width: 650px;
-    margin-left: 150px;
+    width: 600px;
+   
 }
 
 .campequipes {
-    opacity: .7;
-    margin-top: 40px;
+    opacity: .9;
+    margin-top: 38px;
     height: 580px;
-    width: 500px;
+    width: 600px;
 }
 
 @media(max-width: 768px){
@@ -141,37 +127,33 @@ a {
         margin-left: 0;
     }
 
+  
     .lista {
-        margin-left: 60px;
-        margin-bottom: 200px;
+        align-items: center;
+        margin-right: 0;
     }
 
-
-    .fundo {
-        width: 100%;
-        height: 100%;
+    .camp {
+        height: 450px;
+        margin-top: 140px;
+        display: flex;
+        
+    }
+    
+    .campequipes {
+        height: 450px;
+        margin-top: 0;
     }
 
     .tabcamp {
         grid-template-columns: 1fr;
     }
 
-    .camp {
-        width: 750px;
-        margin-top: 300px;
-        margin-left: 10px;
+    .tab {
+        justify-content: center;
     }
 
-    .campequipes {
-        width: 750px;
-        margin-top: 20px;
-        margin-left: 10px;
-    }
-
-    .teste::after {
-        width: 100vw;
-        height: 200vh;
-}
+    
 }
 
 @media(max-width: 480px){
@@ -188,14 +170,11 @@ a {
     }
 
     .lista {
-        margin-left: 80px;
         width: 350px;
         column-gap: 15px;
         font-size: 15px;
         align-items: center;
-        margin-top: 0;
-        margin-bottom: 350px;
-        
+        margin-top: 10px;
     }
 
     .nav ul ul {
@@ -208,21 +187,15 @@ a {
     }
 
     .camp {
-        width: 350px;
-        margin-top: 100px;
-        margin-left: 10px;
-
+        width: 400px;
+        margin-top: 120px;
+        
     }
 
     .campequipes {
-        width: 350px;
-        margin-top: 30px;
-        margin-left: 10px;
+        width: 400px;
+        
+      
     }
 
-    .teste::after {
-        width: 100vw;
-        height: 200vh;
-        position: absolute;
-}
 }
