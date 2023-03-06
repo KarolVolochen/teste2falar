@@ -7,15 +7,11 @@
     text-decoration: none;
 }
 
-
-
 .cabecalho {
     display: flex;
     justify-content: space-between;
     max-width: 100vw;
     height: 80px;
-    
-
 }
 
 .logo {
@@ -61,7 +57,6 @@ li:hover {
     background-color: #ffccff;
     border-radius: 0 0 10px 10px; 
     width: 100%;
-    
     padding: 5px;
 }
 
@@ -82,10 +77,6 @@ a {
     margin-left: 20px;
 }
 
-.submenu {
-    margin-right: 20px;
-    margin-left: 20px;
-}
 
 .fundo {
     height: 100%;
@@ -96,6 +87,11 @@ a {
     background-color: #03273f;
 }
 
+.noticia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .gaetano {
     display: flex;
@@ -104,15 +100,14 @@ a {
     background-color: #ffffff;
     opacity: .7;
     width: 900px;
-    height: 1000px;
+    height: 1050px;
     margin-top: 50px;
-    margin-left: 300px;
     border-radius: 5px;
 }
 
 .babi {
     width: 400px;
-    height: 350px;
+    height: 400px;
     padding: 20px;
     border-radius: 5px;
 }
@@ -123,8 +118,6 @@ a {
     text-align: justify;
     font-size: 18px;
 }
-
-
 
 .ropade {
     text-align: center;
@@ -152,21 +145,15 @@ a {
     }
 
     .lista {
-        margin-left: 60px;
-        margin-bottom: 100px;
-    }
-
-
-    .fundo {
-        width: 100%;
-        height: 100%;
+        align-items: center;
+        margin-right: 0;
     }
 
     .gaetano {
         margin-top: 150px;
         width: 620px;
         height: 1150px;
-        margin-left: 60px;
+       
     }
 
     .babi {
@@ -194,30 +181,23 @@ a {
     }
 
     .lista {
-        margin-left: 80px;
         width: 350px;
         column-gap: 15px;
         font-size: 15px;
         align-items: center;
-        margin-top: 0;
-        margin-bottom: 350px;
-        
+        margin-top: 10px;
     }
 
     .nav ul ul {
         font-size: 15px;
     }
 
-    .fundo {
-        width: 100%;
-        height: 100%;
-    }
 
     .gaetano {
         margin-top: 150px;
         width: 340px;
-        height: 1600px;
-        margin-left: 25px;
+        height: 1580px;
+       
     }
 
     .babi {
@@ -226,9 +206,4 @@ a {
         margin-top: 20px;
     }
 
-    .texto {
-        font-size: 16px;
-    }
-
-    
 }
