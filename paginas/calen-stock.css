@@ -92,14 +92,13 @@ a {
 .calend {
     display: flex;
     justify-content: center;
-    
 }
 
 .calendario1 {
     opacity: .9;
     margin-top: 40px;
-    height: 590px;
-    width: 650px;
+    height: 525px;
+    width: 600px;
 }
 
 @media(max-width: 768px){

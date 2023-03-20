@@ -153,16 +153,16 @@ a {
     margin-bottom: 0;
 }
 
-.ropade {
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
-
 .final {
     width: 800px;
     height: 500px;
     margin-top: 20px;
+}
+
+.ropade {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .desenvolvido {

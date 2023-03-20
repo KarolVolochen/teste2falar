@@ -242,10 +242,7 @@ p {
         margin-right: 0;
     }
 
-    .ropade {
-        width: 100vw;
-    
-    }
+   
 }
 
 @media(max-width: 480px){
@@ -277,9 +274,6 @@ p {
         margin-top: 10px;
     }
 
-    .ropade {
-        width: 500px;
-    }
 
     .nav ul ul {
         font-size: 15px;
