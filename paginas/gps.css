@@ -114,63 +114,29 @@ a:hover {
 
 .comentarios-content {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    row-gap: 30px;
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 20px;
     column-gap: 30px;
     justify-content: center;
     align-items: center;
 }
 
-.notbabi {
-    width: 200px;
-    height: 280px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    font-size: 13px;
-    font-family: Montserrat;
-    backdrop-filter: blur(40px);
-    background-color: rgba(255, 255, 255, 0.548);
-    border-radius: 1.2rem;
-    color: #03273f;
-    text-align: center;
-}
-
-
-.noticia1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.babi {
-    width: 180px;
-    height: 150px;
-    margin-bottom: 10px;
-    margin-top: -10px;
-}
-
-.legenda {
-    margin-bottom: 15px;
-    font-size: 13px;
-}
 
 .pole {
-    width: 200px;
-    height: 280px;
+    width: 500px;
+    height: 150px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
-    font-size: 13px;
+    font-size: 18px;
     font-family: Montserrat;
     backdrop-filter: blur(40px);
     background-color: rgba(255, 255, 255, 0.548);
     border-radius: 1.2rem;
     color: #03273f;
     text-align: center;
+    padding: 20px;
 }
 
 .noticia5 {
@@ -181,10 +147,9 @@ a:hover {
 }
 
 .drugo {
-    width: 180px;
+    width: 210px;
     height: 150px;
-    margin-bottom: 10px;
-    margin-top: -10px;
+    padding: 20px;
 }
 
 .legendadrugo {
@@ -214,7 +179,12 @@ p {
 
 .pagnot {
     color: #ff0066;
-    font-size: 15px;  
+    font-size: 18px;  
+    transition: 0.2s;
+}
+
+.pagnot:hover {
+    transform: scale(1.2);
 }
 
 
