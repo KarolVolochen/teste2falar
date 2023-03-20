@@ -124,7 +124,7 @@ a:hover {
 
 .pole {
     width: 500px;
-    height: 150px;
+    height: 180px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -147,8 +147,8 @@ a:hover {
 }
 
 .drugo {
-    width: 210px;
-    height: 150px;
+    width: 200px;
+    height: 180px;
     padding: 20px;
 }
 
@@ -197,7 +197,7 @@ p {
 
     .comentarios-content {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr;
         margin-top: 115px;
         column-gap: 20px;
         margin-bottom: 120px;
@@ -210,6 +210,10 @@ p {
     .lista {
         align-items: center;
         margin-right: 0;
+    }
+
+    .pole {
+        width: 450px;
     }
 
    
@@ -251,6 +255,12 @@ p {
     .fundo {
         width: 100%;
         height: 100%;
+    }
+
+    .pole {
+        width: 200px;
+        height: 350px;
+        flex-direction: column;
     }
 
     }
