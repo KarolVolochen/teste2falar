@@ -103,7 +103,7 @@ a {
     background-color: #ffffff;
     opacity: .7;
     width: 900px;
-    height: 2300px;
+    height: 2400px;
     margin-top: 50px;
     border-radius: 5px;
 }
@@ -119,6 +119,14 @@ a {
     padding: 25px;
     text-align: justify;
     font-size: 18px;
+}
+
+.bagunca {
+    font-family: Montserrat ;
+    padding: 25px;
+    text-align: justify;
+    font-size: 18px;
+    color: #ff0066;
 }
 
 .legendafinal {
