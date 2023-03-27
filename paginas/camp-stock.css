@@ -15,7 +15,6 @@
     max-width: 100vw;
     height: 80px;
     
-
 }
 
 .logo {
@@ -23,6 +22,7 @@
     height: 100px;
     align-items: center;
     margin-left: 100px;
+   
 }
 
 .lista {
@@ -67,8 +67,6 @@ li:hover {
     display: block;
     position: absolute;
     text-align: center;
-
-
 }
 
 a {
@@ -82,7 +80,6 @@ a {
     margin-left: 20px;
 }
 
-
 .fundo {
     height: 100%;
     width: 100%;
@@ -91,26 +88,39 @@ a {
     z-index: -1;
 }
 
-.definicao {
+.tab {
     display: flex;
     justify-content: center;
-    margin-top: 150px;
+    align-items: center;
 }
 
+.tabcamp {
+    grid-template-columns: repeat(3, 1fr);
 
-.rodape {
-    background-color: #ffccff;
-    width: 300px;
-    height: 110px;
-    text-align: center;
-    border-radius: 10px;
 }
 
-.desenvolvido {
-    font-family: Montserrat;
-    font-size: 40px;
-  
+.camp {
+    opacity: .9;
+    margin-top: 38px;
+    height: 570px;
+    width: 450px;
+   
 }
+
+.campequipes {
+    opacity: .9;
+    margin-top: 44px;
+    height: 570px;
+    width: 450px;
+}
+
+.campstock {
+    opacity: .9;
+    margin-top: 44px;
+    height: 570px;
+    width: 450px;
+}
+
 
 @media(max-width: 768px){
 
@@ -124,16 +134,44 @@ a {
         margin-left: 0;
     }
 
+  
     .lista {
         align-items: center;
         margin-right: 0;
     }
 
+    .camp {
+        height: 450px;
+        margin-top: 150px;
+        display: flex;
+        
+        
+    }
     
-    .desenvolvido {
-        font-size: 30px;
-        text-align: center;
-}
+    .campequipes {
+        height: 450px;
+        margin-top: 10px;
+    }
+
+    .campstock {
+        height: 450px;
+        margin-top: 10px;
+        
+
+    }
+
+   
+    .tabcamp {
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+   
+
+    
+
+    
 }
 
 @media(max-width: 480px){
@@ -161,6 +199,27 @@ a {
         font-size: 15px;
     }
 
-    
-}
+    .fundo {
+        width: 100%;
+        height: 100%;
+    }
 
+    .camp {
+        width: 400px;
+        margin-top: 120px;
+        
+    }
+
+    .campequipes {
+        width: 400px;
+        
+      
+    }
+
+    .campstock {
+        width: 400px;
+        
+      
+    }
+
+}
