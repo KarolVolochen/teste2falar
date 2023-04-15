@@ -115,7 +115,29 @@ a {
     width: 620px;
 }
 
-@media(max-width: 768px){
+@media(max-width: 1250px){
+    .camp {
+        width: 500px;
+    }
+    
+    .campequipes {
+        width: 500px;
+    }
+
+}
+
+@media(max-width: 1250px){
+    .camp {
+        width: 450px;
+    }
+    
+    .campequipes {
+        width: 450px;
+    }
+
+}
+
+@media(max-width: 920px){
 
     .cabecalho {
         flex-direction: column;
@@ -134,15 +156,17 @@ a {
     }
 
     .camp {
-        height: 450px;
+        height: 500px;
         margin-top: 150px;
         display: flex;
+        width: 550px;
         
     }
     
     .campequipes {
-        height: 450px;
-        margin-top: 0;
+        height: 500px;
+        margin-top: 15px;
+        width: 550px;
     }
 
     .tabcamp {
@@ -154,6 +178,17 @@ a {
     }
 
     
+}
+
+@media(max-width: 1250px){
+    .camp {
+        width: 450px;
+    }
+    
+    .campequipes {
+        width: 450px;
+    }
+
 }
 
 @media(max-width: 480px){
