@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -6,30 +7,18 @@
     text-decoration: none;
 }
 
-html {
-    height: 100%;
-    min-height: 100%;
-}
-
-body{
-   display: flex;
-   flex-direction: column;
-   min-height: 100%;
-   position: relative;
-}
-
 .cabecalho {
     display: flex;
     justify-content: space-between;
     max-width: 100vw;
-    height: 80px;
+    height: 80px; 
 }
 
 .logo {
     width: 100px;
     height: 100px;
     align-items: center;
-    margin-left: 150px;
+    margin-left: 100px;
 
 }
 
@@ -51,7 +40,6 @@ body{
     height: 35px;
     text-align: center;
     opacity: 0.7;
-    font: bold;
 }
 
 li {
@@ -60,7 +48,6 @@ li {
 
 li:hover {
     transform: scale(1.1);
-    color: #ff0066;
 }
 
 .nav ul ul {
@@ -70,6 +57,7 @@ li:hover {
     background-color: #ffccff;
     border-radius: 0 0 10px 10px; 
     width: 100%;
+    
     padding: 5px;
 }
 
@@ -77,18 +65,17 @@ li:hover {
     display: block;
     position: absolute;
     text-align: center;
-    
 }
 
 a {
     text-decoration: none;
     color: #03273f;
     display: inline-block;
-    transition: 0.2s;
 }
 
-a:hover {
-    color: #ff0066;
+.submenu {
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 
@@ -102,56 +89,46 @@ a:hover {
 }
 
 
-
-.todos-comentarios {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 60px;
-    align-items: center;
-}
-
-.comentarios-content {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    row-gap: 20px;
-    column-gap: 20px;
-    justify-content: center;
-    align-items: center;
-}
-
-
-.pole {
-    width: 500px;
-    height: 225px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    font-size: 18px;
-    font-family: Montserrat;
-    backdrop-filter: blur(40px);
-    background-color: rgba(255, 255, 255, 0.548);
-    border-radius: 1.2rem;
-    color: #03273f;
-    text-align: center;
-    
-}
-
-.noticia5 {
+.noticia {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
 }
 
-.drugo {
-    width: 200px;
-    height: 200px;
-    padding: 10px;
+.gaetano {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    opacity: .7;
+    width: 900px;
+    height: 1150px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
+.babi {
+    width: 500px;
+    height: 500px;
+    margin-top: 20px;
+}
+
+.texto {
+    font-family: Montserrat;
+    text-align: center;
+    text-align: justify;
+    font-size: 18px;
+    padding: 20px;
+}
+
+
+.legenda {
+    color: #03273f;
+    font-size: 15px;
+    font-family: Montserrat;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
 
 .ropade {
     text-align: center;
@@ -164,23 +141,8 @@ a:hover {
     font-size: 17px;
     color: #ffccff;;
     margin-top: 10px;
+    
 }
-
-
-p {
-    margin-top: 5px;
-}
-
-.pagnot {
-    color: #ff0066;
-    font-size: 18px;  
-    transition: 0.2s;
-}
-
-.pagnot:hover {
-    transform: scale(1.2);
-}
-
 
 @media(max-width: 768px){
 
@@ -189,13 +151,6 @@ p {
         align-items: center;
     }
 
-    .comentarios-content {
-        display: grid;
-        grid-template-columns: 1fr;
-        margin-top: 115px;
-        column-gap: 20px;
-        margin-bottom: 120px;
-    }
 
     .logo {
         margin-left: 0;
@@ -206,11 +161,22 @@ p {
         margin-right: 0;
     }
 
-    .pole {
-        width: 450px;
+   
+    .gaetano {
+        margin-top: 150px;
+        width: 620px;
+        height: 1100px;
     }
 
-   
+    .babi {
+        width: 400px;
+        height: 400px;
+        margin-top: 20px;
+    }
+
+    .texto {
+        font-size: 16px;
+    }
 }
 
 @media(max-width: 480px){
@@ -218,14 +184,6 @@ p {
     .cabecalho {
         flex-direction: column;
         column-gap: 10px;
-    }
-
-    .comentarios-content {
-        display: grid;
-        grid-template-columns: 1fr;
-        column-gap: 10px;
-        margin-top: 70px;
-        margin-bottom: 170px;
     }
 
     .logo {
@@ -242,23 +200,27 @@ p {
         margin-top: 10px;
     }
 
-
     .nav ul ul {
         font-size: 15px;
     }
-    .fundo {
-        width: 100%;
-        height: 100%;
+
+
+    .gaetano {
+        margin-top: 120px;
+        width: 340px;
+        height: 1400px;
+       
     }
 
-    .pole {
-        width: 200px;
-        height: 320px;
-        flex-direction: column;
-        padding: 10px;
-        font-size: 15px;
+    .babi {
+        width: 320px;
+        height: 300px;
+        margin-top: 20px;
     }
 
-
-
+    .texto {
+        font-size: 16px;
+        
     }
+
+}
